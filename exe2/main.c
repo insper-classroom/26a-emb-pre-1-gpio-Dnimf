@@ -22,7 +22,6 @@ int main() {
     if(!gpio_get(BTN_PIN1)){
       printf("Botao 2\n");
       while (!gpio_get(BTN_PIN1)){
-
       };
     }
   }
