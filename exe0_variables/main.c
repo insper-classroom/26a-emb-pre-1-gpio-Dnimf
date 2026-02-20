@@ -10,7 +10,7 @@ void main(void) {
     int a = 0; // var global
     int b = 0;
     while (1) {
-        foo(%a);
+        foo(&a);
         
         if (a > 5) {
             b = 1;
