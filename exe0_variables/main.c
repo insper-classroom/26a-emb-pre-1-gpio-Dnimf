@@ -8,7 +8,7 @@ void foo(int *a) {
 
 void main(void) {
     int a = 0; // var global
-    int b;
+    int b = 0;
     while (1) {
         foo(&a);
         
@@ -16,4 +16,5 @@ void main(void) {
             b = 1;
         }
     }
+    printf("%d",b);
 }
